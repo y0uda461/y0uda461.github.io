@@ -1,0 +1,101 @@
+body{
+    width: 930px;
+    margin: 25px auto;
+    background-color: #dedede;
+    font-family: sans-serif;
+}
+.wrap{
+    width: 930px;
+    margin: 25px auto;
+}
+header {
+    font-family: sans-serif;
+    text-align: center;
+    border: cornsilk;
+    background: darkslategrey;
+    width: 930px ;
+    margin: 25px auto;
+    padding: 10px;
+}
+header .titel{
+    font-family: sans-serif;
+    color: ghostwhite;
+    font-size: 20pt;
+}
+header .deskripsi{
+    font-size: 15px;
+    color: lavender;
+}
+.kegiatan{
+    float: right;
+    margin: 0 0 25px ;
+    border: whitesmoke;
+    background-color: rgba(68, 92, 163, 0.100);
+    padding: 25px;
+    width: 275px;
+    border-bottom: solid 2px white;
+    transition: all 0.5s ease;
+}
+.widget h2{
+    font-family: sans-serif;
+    padding:0;
+	margin:0 0 15px;
+	color:#3498db;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+
+.kegiatan:hover{
+    border-bottom: 2px solid red;
+}
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 580px;
+	margin:0 0 0;
+	background: #1abc9c;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+nav.menu ul a{
+    color: #fff;
+    font-weight:600;
+	font-size: 16px;
+    padding: 25px;
+    display: block;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+nav.menu ul li{
+    float: left;
+}
+nav.menu ul a:hover {
+	background:#16a085;
+}
+.kol {
+    float: left;
+}
+.blog{
+    width: 580px;
+    margin: 25px auto;
+    background-color: rgba(68, 92, 163, 0.100);
+    transition: all 0.5s ease;
+    border-bottom: 2px solid whitesmoke;
+}
+.blog:hover{
+    transition: all 0.5s ease;
+}
+.blog h2{
+    color: black;
+    text-align: center;
+}
+.blog:hover{
+    border-bottom: 2px solid red;
+}
